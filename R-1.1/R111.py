@@ -1,4 +1,7 @@
-def is_multiple(n,m):
-    return n%m==0
+def is_multiple(n, m):
+    if m > 0:
+        return n % m == 0  # RETURNS Ture if multiples of i of m is equal to n
+    return False
 
-print(is_multiple(6,2))
+
+print(is_multiple(6, 0))

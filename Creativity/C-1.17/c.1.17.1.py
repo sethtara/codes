@@ -1,0 +1,1 @@
+print([chr(i+97) for i in range(26)])

@@ -31,4 +31,4 @@ for i in range(ls):
 
                                             count += 1
 
-print(count)
+print("{} different pair of strings".format(count-6))
